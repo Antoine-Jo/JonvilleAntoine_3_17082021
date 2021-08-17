@@ -1,0 +1,295 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+.header {
+  height: 4em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  font-family: 'Shrikhand', cursive;
+  margin: 0;
+}
+
+.localisation {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: 3em;
+  background: #dddddf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.localisation__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.localisation__city {
+  margin-left: 1.25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.booking {
+  height: 18.125em;
+  width: 100%;
+  background: #fafafa;
+}
+
+.booking__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 0;
+}
+
+.booking__title {
+  text-align: center;
+  margin: 0;
+  max-width: 250px;
+}
+
+.booking__text {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.booking__button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  padding: 0 20px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 100px;
+  opacity: 1;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.booking__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+.process {
+  margin: 0;
+  padding: 25px 0px 70px 0px;
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.process__container {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .process__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .process__container {
+    width: 95%;
+  }
+}
+
+.process__title {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.process__bloc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 20px 0 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .process__bloc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .process__bloc {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .process__bloc {
+    width: 70%;
+  }
+}
+
+.process__line {
+  background: #f6f6f6;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  border-radius: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 10px;
+  opacity: 1;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.process__line:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  background: #ffdff6;
+}
+
+@media screen and (min-width: 768px) {
+  .process__line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+}
+
+.process__number {
+  margin: 0px 10px;
+  position: absolute;
+  left: -10px;
+  color: white;
+  background: #9356DC;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .process__number {
+    left: -20px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .process__number {
+    position: relative;
+    margin: 0;
+  }
+}
+
+.process__icon {
+  color: #7E7E7E;
+  padding: 0 20px;
+}
+/*# sourceMappingURL=index.css.map */
