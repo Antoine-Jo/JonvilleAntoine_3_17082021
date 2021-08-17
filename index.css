@@ -447,4 +447,29 @@ a {
   position: relative;
   color: black;
 }
+
+.heart_empty:hover {
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.heart_full {
+  position: absolute;
+  font-size: 33px;
+  opacity: 0;
+  left: -1.5px;
+  bottom: 3px;
+}
+
+.heart_full:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  opacity: 1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: 2;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 /*# sourceMappingURL=index.css.map */

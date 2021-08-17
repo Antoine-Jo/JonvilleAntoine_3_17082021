@@ -270,4 +270,29 @@ a {
             color: black;
             
         }
-    }        
+    }  
+    
+    .heart_empty {
+    
+        &:hover {
+            opacity: 0;
+            transition: 0.4s;
+        }
+    }
+    
+    .heart_full {
+        position: absolute;
+        font-size: 33px;
+        opacity: 0;
+        left: -1.5px;
+        bottom: 3px;
+        
+        &:hover {
+            background: $gradient;
+            opacity: 1;
+            transition: 0.4s;
+            z-index: 2;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
