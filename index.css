@@ -527,4 +527,132 @@ a {
   font-size: 24px;
   margin: 20px 0 0 20px;
 }
+
+.loader {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.bar {
+  width: 10px;
+  height: 70px;
+  background: #99E2D0;
+  display: inline-block;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  -webkit-animation: loader 1.2s linear infinite;
+          animation: loader 1.2s linear infinite;
+}
+
+.bar1 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.bar2 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.bar3 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.bar4 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.bar5 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.bar6 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.bar7 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.bar8 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: scaleY(0.1);
+            transform: scaleY(0.1);
+    background: "";
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+    background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  }
+  100% {
+    -webkit-transform: scaleY(0.1);
+            transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: scaleY(0.1);
+            transform: scaleY(0.1);
+    background: "";
+  }
+  50% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+    background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  }
+  100% {
+    -webkit-transform: scaleY(0.1);
+            transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+header, main, footer {
+  -webkit-animation: back 4s linear both;
+          animation: back 4s linear both;
+}
+
+@-webkit-keyframes back {
+  0% {
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes back {
+  0% {
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=index.css.map */
