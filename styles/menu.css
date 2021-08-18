@@ -327,7 +327,7 @@ h3, p {
   margin: 20px 0 0 20px;
 }
 
-main {
+.menu__bloc {
   -webkit-animation: fadeInAnimation ease 4s;
           animation: fadeInAnimation ease 4s;
   -webkit-animation-fill-mode: forwards;
