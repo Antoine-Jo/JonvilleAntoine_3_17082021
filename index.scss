@@ -276,7 +276,7 @@ a {
     
         &:hover {
             opacity: 0;
-            transition: 0.4s;
+            transition: all 0.4s linear;
         }
     }
     
@@ -287,13 +287,15 @@ a {
         left: -1.5px;
         bottom: 3px;
         
+        
         &:hover {
             background: $gradient;
             opacity: 1;
-            transition: 0.4s;
+            transition: 1s ease-in-out;
             z-index: 2;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
+            
         }
     }
 
@@ -340,7 +342,7 @@ a {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        position: absolute;
+        position: fixed;
       }
       .bar {
         width: 10px;
