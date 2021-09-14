@@ -176,6 +176,7 @@ h3, p {
   margin-right: 0px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .menu__bloc__line:hover .check__button {

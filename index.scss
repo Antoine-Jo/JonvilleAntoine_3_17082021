@@ -20,8 +20,9 @@ body {
     width: 100%;
     @include flexbox-center;
     &__logo {
-        font-family: 'Shrikhand', cursive;
+        font-family: 'Shrikhand', sans-serif;
         margin: 0;
+        font-size: 34px;
     }
 }
 
@@ -141,7 +142,7 @@ body {
             cursor: pointer;
             transition: .3s;
             box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
-            background: lighten($color-secondary, 20%);
+            background: rgb(245, 237, 255);
         }
         @media screen and (min-width: 768px) {
             @include flexbox-center;
@@ -374,6 +375,7 @@ a {
         border: 100px solid #fff;
         border-color: $color-primary transparent $color-secondary transparent;
         animation: lds-hourglass 1.2s infinite;
+        
       }
       @keyframes lds-hourglass {
         0% {
@@ -386,5 +388,6 @@ a {
         }
         100% {
           transform: rotate(1800deg);
+          
         }
       }
