@@ -292,7 +292,7 @@ a {
         &:hover {
             background: $gradient;
             opacity: 1;
-            transition: 1s ease-in-out;
+            transition: 1s linear;
             z-index: 2;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
