@@ -111,8 +111,8 @@ h3, p {
 
 .heart_empty:hover {
   opacity: 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 .heart_full {
@@ -127,8 +127,8 @@ h3, p {
   background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
   opacity: 1;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
   z-index: 2;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

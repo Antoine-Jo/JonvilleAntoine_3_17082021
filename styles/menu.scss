@@ -107,7 +107,7 @@ h3, p {
 .heart_empty {
     &:hover {
         opacity: 0;
-        transition: 0.4s;
+        transition: all 0.4s linear;
     }
 }
 
@@ -117,14 +117,16 @@ h3, p {
     opacity: 0;
     left: -1.5px;
     bottom: 3px;
+    
 
     &:hover {
         background: $gradient;
         opacity: 1;
-        transition: 0.4s;
+        transition: 1s linear;
         z-index: 2;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+        
     }
 }
 
