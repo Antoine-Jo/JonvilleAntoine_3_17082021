@@ -216,7 +216,7 @@ h3, p {
     border-radius: 0 20px 20px 0;
     @include flexbox-center();
     margin-right: -75px;
-    transition: 2s;
+    transition-duration: 2s;
   
 
     &__button {

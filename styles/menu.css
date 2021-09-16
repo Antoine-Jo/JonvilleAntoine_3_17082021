@@ -233,8 +233,8 @@ h3, p {
       -ms-flex-align: center;
           align-items: center;
   margin-right: -75px;
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .check__button {
