@@ -163,7 +163,7 @@ h3, p {
             .check {
               width: 20%;
               margin-right: 0px;
-              transition: 0.3s;
+              transition: 0.4s;
               cursor: pointer;
               
 
@@ -216,7 +216,7 @@ h3, p {
     border-radius: 0 20px 20px 0;
     @include flexbox-center();
     margin-right: -75px;
-    
+    transition: 2s;
   
 
     &__button {
