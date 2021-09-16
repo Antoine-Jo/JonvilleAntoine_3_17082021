@@ -60,12 +60,11 @@ h3, p {
 }
 
 .menu {
-  width: 95%;
+  width: 100%;
   max-width: 1230px;
   position: relative;
   margin: auto;
   height: auto;
-  padding: 10px;
   background: #f6f6f6;
   top: -60px;
   bottom: 0;
@@ -86,7 +85,7 @@ h3, p {
 }
 
 .menu__header {
-  width: 100%;
+  width: 95%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -96,7 +95,7 @@ h3, p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px;
+  margin-left: 15px;
 }
 
 .menu__header-title {
@@ -135,8 +134,9 @@ h3, p {
 }
 
 .menu__bloc {
-  width: 100%;
+  width: 95%;
   margin-bottom: 40px;
+  padding-left: 10px;
 }
 
 @media screen and (min-width: 1330px) {

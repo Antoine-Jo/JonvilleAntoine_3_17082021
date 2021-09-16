@@ -61,12 +61,12 @@ h3, p {
 }
 
 .menu {
-    width: 95%;
+    width: 100%;
     max-width: 1230px;
     position: relative;
     margin: auto;
     height: auto;
-    padding: 10px;
+    // padding: 10px;
     background: #f6f6f6;
     top: -60px;
     bottom: 0;
@@ -85,11 +85,11 @@ h3, p {
     
 
     &__header {
-        width: 100%;
+        width: 95%;
         display: inline-flex;
         justify-content: space-between;
         align-items: center;
-        margin: 10px;
+        margin-left: 15px;
 
         &-title {
             font-family: 'Shrikhand', sans-serif;
@@ -131,8 +131,10 @@ h3, p {
 }
 
 .menu__bloc {
-    width: 100%;
+    width: 95%;
     margin-bottom: 40px;
+    padding-left: 10px;
+    
 
     @media screen and (min-width: 1330px) {
         margin-right: 20px;
