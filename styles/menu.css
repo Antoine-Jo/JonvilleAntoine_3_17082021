@@ -174,8 +174,8 @@ h3, p {
 .menu__bloc__line:hover .check {
   width: 20%;
   margin-right: 0px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   cursor: pointer;
 }
 
