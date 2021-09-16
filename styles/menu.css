@@ -66,7 +66,7 @@ h3, p {
   margin: auto;
   height: auto;
   background: #f6f6f6;
-  top: -60px;
+  margin-top: -60px;
   bottom: 0;
   border-radius: 40px 40px 0 0;
 }
@@ -81,6 +81,7 @@ h3, p {
   .menu {
     margin: auto;
     width: 50%;
+    margin-top: -60px;
   }
 }
 
@@ -253,7 +254,7 @@ h3, p {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .menu__button {
@@ -289,7 +290,7 @@ h3, p {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  top: -60px;
+  margin-top: -30px;
 }
 
 @media screen and (min-width: 725px) {
