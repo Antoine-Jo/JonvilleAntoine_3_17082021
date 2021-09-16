@@ -358,7 +358,7 @@ a {
         }
     }
 
-    .lds-hourglass {
+    .loader {
         display: inline-block;
         width: 180px;
         height: 180px;
@@ -367,7 +367,7 @@ a {
         transform: translate(-50%, -50%);
         position: fixed;
       }
-      .lds-hourglass:after {
+      .loader:after {
         content: " ";
         display: block;
         border-radius: 50%;
@@ -377,10 +377,10 @@ a {
         box-sizing: border-box;
         border: 100px solid #fff;
         border-color: $color-primary transparent $color-secondary transparent;
-        animation: lds-hourglass 1.2s infinite;
+        animation: rotate 1.2s infinite;
         
       }
-      @keyframes lds-hourglass {
+      @keyframes rotate {
         0% {
           transform: rotate(0);
           animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
